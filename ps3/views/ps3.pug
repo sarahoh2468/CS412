@@ -1,0 +1,12 @@
+extends layout
+
+block content
+    if string == null
+        h1 Welcome to PS3
+    else if length == null
+        h1 Route using the GET method that returns a string
+        p String value is: #{string}
+    else
+        h1 Route using the POST method that returns a string and length
+        p String value is: #{string}
+        p String length is: #{length}
