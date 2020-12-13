@@ -1,0 +1,8 @@
+<form (ngSubmit)="getWeatherByCity()">
+  City: <input name="city" [(ngModel)]="city">
+  <button type="submit">Submit</button>
+
+</form>
+
+<app-result [cities]="cities" [currentCity]="currentCity"></app-result>
+
